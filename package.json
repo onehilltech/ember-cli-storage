@@ -1,6 +1,6 @@
 {
   "name": "@onehilltech/ember-cli-storage",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "EmberJS add-on for accessing local and session storage in a browser.",
   "keywords": [
     "ember-addon",
