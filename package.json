@@ -1,17 +1,21 @@
 {
-  "name": "ember-cli-storage",
+  "name": "@onehilltech/ember-cli-storage",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "EmberJS add-on for accessing local and session storage in a browser.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember",
+    "storage",
+    "local",
+    "session"
   ],
-  "license": "MIT",
-  "author": "",
+  "license": "Apache-2.0",
+  "author": "One Hill Technologies, LLC",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/onehilltech/ember-cli-storage.git",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
