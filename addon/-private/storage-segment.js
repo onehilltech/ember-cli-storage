@@ -1,14 +1,14 @@
 import Ember from 'ember';
 import Storage from './storage';
 
-let NamespaceStorage = Storage.extend ({
+let StorageSegment = Storage.extend ({
   /// Length of the storage, set as undefined so it become dynamic.
   length: undefined,
 
-  /// The namespace for the storage.
-  namespace: null,
+  /// Name of the storage segment.
+  name: null,
 
-  /// Regular expression for matching items with the namespace.
+  /// Regular expression for matching items with the name.
   _regexp: null,
 
   init () {
@@ -16,11 +16,11 @@ let NamespaceStorage = Storage.extend ({
     this._initRegExp ();
   },
 
-  bindTo (name) {
-    let namespace = this._computeKey (name);
+  segment (name) {
+    let segmentName = this._computeKey (name);
     let storage = this.get ('storage');
 
-    return NamespaceStorage.create ({namespace: namespace, storage: storage});
+    return StorageSegment.create ({name: segmentName, storage: storage});
   },
 
   setUnknownProperty (name) {
@@ -33,14 +33,14 @@ let NamespaceStorage = Storage.extend ({
   },
 
   /**
-   * Iterate over each item in storage that belongs to this namespace.
+   * Iterate over each item in storage that belongs to this name.
    *
    * @param f
    * @param context
    */
   forEach (f, context) {
     let storage = this.get ('storage');
-    let namespace = this.get ('namespace');
+    let name = this.get ('name');
     let _regexp = this.get ('_regexp');
 
     if (Ember.isNone (context)) {
@@ -53,9 +53,9 @@ let NamespaceStorage = Storage.extend ({
       if (_regexp.test (key)) {
         let value = storage.getItem (key);
 
-        // Remove the namespace from the key since we assume the caller knows
-        // they are iterating over elements in the namespace storage.
-        key = key.slice (namespace.length + 1);
+        // Remove the name from the key since we assume the caller knows
+        // they are iterating over elements in the name storage.
+        key = key.slice (name.length + 1);
 
         f.call (context, value, key);
       }
@@ -63,7 +63,7 @@ let NamespaceStorage = Storage.extend ({
   },
 
   _computeKey (name) {
-    return `${this.get ('namespace')}_${name}`;
+    return `${this.get ('name')}_${name}`;
   },
 
   _computeLength () {
@@ -75,12 +75,12 @@ let NamespaceStorage = Storage.extend ({
   },
 
   _initRegExp () {
-    let namespace = this.get ('namespace');
-    let parts = namespace.split ('.');
+    let name = this.get ('name');
+    let parts = name.split ('.');
     let pattern = `^${parts.join ('\\.')}`;
 
     this.set ('_regexp', new RegExp (pattern));
   }
 });
 
-export default NamespaceStorage;
+export default StorageSegment;

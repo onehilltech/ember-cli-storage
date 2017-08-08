@@ -1,12 +1,12 @@
 import Ember from 'ember';
 import Storage from './storage';
-import NamespaceStorage from './namespace-storage';
+import StorageSegment from './storage-segment';
 
 export default Storage.extend ({
   length: Ember.computed.alias ('storage.length'),
 
-  bindTo (namespace) {
-    return NamespaceStorage.create ({namespace: namespace, storage: this.get ('storage')});
+  segment (name) {
+    return StorageSegment.create ({name: name, storage: this.get ('storage')});
   },
 
   _computeKey (name) {

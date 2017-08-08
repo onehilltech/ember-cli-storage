@@ -27,7 +27,7 @@ export default Ember.Service.extend ({
     return this.get ('storage').get (name);
   },
 
-  bindTo (name) {
-    return this.get ('storage').bindTo (name);
+  segment (name) {
+    return this.get ('storage').segment (name);
   }
 });
