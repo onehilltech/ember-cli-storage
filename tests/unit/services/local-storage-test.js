@@ -1,4 +1,5 @@
 import { moduleFor, test } from 'ember-qunit';
+import Ember from 'ember';
 
 moduleFor('service:local-storage', 'Unit | Service | local storage', {
   beforeEach () {
@@ -22,6 +23,23 @@ test ('set value', function (assert) {
   let value = service.set ('token', 'ssshhh');
   assert.equal (value, 'ssshhh');
   assert.equal (window.localStorage.getItem ('token'), '\"ssshhh\"');
+});
+
+test ('observer', function (assert) {
+  let service = this.subject ();
+
+  let observer = Ember.Object.create ({
+    token: 'up',
+
+    tokenDidChange (sender, key) {
+      this.set (key, sender.get (key));
+    }
+  });
+
+  service.addObserver ('token', observer, 'tokenDidChange');
+  service.set ('token', 'down');
+
+  assert.equal (observer.get ('token'), 'down');
 });
 
 test ('get value', function (assert) {
@@ -88,6 +106,8 @@ test ('segment: set value', function (assert) {
   assert.equal (window.localStorage.getItem ('a_message'), '\"hello\"');
   assert.equal (storage.get ('message'), 'hello');
 });
+
+
 
 test ('segment: length', function (assert) {
   let service = this.subject ();

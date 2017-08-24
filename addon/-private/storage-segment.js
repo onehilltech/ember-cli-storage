@@ -25,7 +25,7 @@ let StorageSegment = Storage.extend ({
 
   setUnknownProperty (name) {
     if (name === 'length') { throw new Ember.EmberError ('length property is read-only'); }
-    this._super (...arguments);
+    return this._super (...arguments);
   },
 
   unknownProperty (name) {

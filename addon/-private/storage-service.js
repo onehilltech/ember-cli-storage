@@ -20,7 +20,12 @@ export default Ember.Service.extend ({
   },
 
   setUnknownProperty (name, value) {
-    this.get ('storage').set (name, value);
+    let ret = this.get ('storage').set (name, value);
+
+    this.notifyPropertyChange (name);
+    this.notifyPropertyChange ('length');
+
+    return ret;
   },
 
   unknownProperty (name) {
