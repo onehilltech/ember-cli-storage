@@ -20,6 +20,10 @@ export default Ember.Object.extend ({
     let key = this._computeKey (name);
     let storage = this.get ('storage');
 
+    if (Ember.isNone (storage)) {
+      return value;
+    }
+
     if (Ember.isNone (value)) {
       storage.removeItem (key);
     }
@@ -37,9 +41,15 @@ export default Ember.Object.extend ({
 
   unknownProperty (name) {
     let key = this._computeKey (name);
-    let value = this.get ('storage').getItem (key);
+    let storage = this.get ('storage');
 
+    if (Ember.isNone (storage)) {
+      return null;
+    }
+
+    let value = storage.getItem (key);
     return JSON.parse (value);
+
   },
 
   /**
@@ -62,6 +72,10 @@ export default Ember.Object.extend ({
   forEach (f, target) {
     let storage = this.get ('storage');
 
+    if (Ember.isNone (storage)) {
+      return;
+    }
+
     if (Ember.isNone (target)) {
       target = this;
     }
@@ -74,4 +88,3 @@ export default Ember.Object.extend ({
     }
   }
 });
-
