@@ -1,6 +1,5 @@
-/* eslint-env node */
 'use strict';
 
 module.exports = {
-  name: 'ember-cli-storage'
+  name: '@onehilltech/ember-cli-storage'
 };
