@@ -1,6 +1,6 @@
 # ember-cli-storage
 
-This README outlines the details of collaborating on this Ember addon.
+A simple and easy way to interact with local and session storage.
 
 Compatibility
 ------------------------------------------------------------------------------
@@ -21,8 +21,32 @@ ember install @onehilltech/ember-cli-storage
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+The add-on uses decorators to set/get items to/from local or session storage. For 
+local storage, use `@local`. For session storage, use `@session`. The parameters
+for either decorator is the same.
 
+```javascript
+class MyClass {
+  @session
+  mySessionProperty;
+  
+  @local
+  myLocalProperty;
+ 
+  /////////
+  // advanced usage
+  /////////
+
+  // store the value under 'aDifferentName'
+  @local ('aDifferentName') name;
+  @local ({name: 'aDifferentName'}) anotherName;
+
+  // use the serialize/deserialize method to customize storing/retrieving
+  @local ({serialize: JSON.stringify, deserialize: JSON.parse}) object;
+}
+```
+
+Happy Coding!
 
 Contributing
 ------------------------------------------------------------------------------

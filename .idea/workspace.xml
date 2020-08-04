@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04ee4863-744d-4f69-8322-5361bc88dd02" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/tests/unit/local-storage-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/local-storage-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODULE_REPORT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +143,7 @@
       <workItem from="1502805759080" duration="719000" />
       <workItem from="1503554539158" duration="5271000" />
       <workItem from="1535605317975" duration="3759000" />
-      <workItem from="1596516218469" duration="13044000" />
+      <workItem from="1596516218469" duration="14378000" />
     </task>
     <servers />
   </component>
@@ -157,21 +159,21 @@
       <screen x="0" y="23" width="1680" height="955" />
     </state>
     <state x="100" y="123" width="1480" height="755" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1680.955@0.23.1680.955" timestamp="1596557255582" />
-    <state width="1659" height="366" key="GridCell.Tab.0.bottom" timestamp="1596564840382">
+    <state width="1659" height="366" key="GridCell.Tab.0.bottom" timestamp="1596564893214">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="1659" height="366" key="GridCell.Tab.0.bottom/0.23.1680.955@0.23.1680.955" timestamp="1596564840382" />
-    <state width="1659" height="366" key="GridCell.Tab.0.center" timestamp="1596564840381">
+    <state width="1659" height="366" key="GridCell.Tab.0.bottom/0.23.1680.955@0.23.1680.955" timestamp="1596564893214" />
+    <state width="1659" height="366" key="GridCell.Tab.0.center" timestamp="1596564893213">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="1659" height="366" key="GridCell.Tab.0.center/0.23.1680.955@0.23.1680.955" timestamp="1596564840381" />
-    <state width="1659" height="366" key="GridCell.Tab.0.left" timestamp="1596564840381">
+    <state width="1659" height="366" key="GridCell.Tab.0.center/0.23.1680.955@0.23.1680.955" timestamp="1596564893213" />
+    <state width="1659" height="366" key="GridCell.Tab.0.left" timestamp="1596564893212">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="1659" height="366" key="GridCell.Tab.0.left/0.23.1680.955@0.23.1680.955" timestamp="1596564840381" />
-    <state width="1659" height="366" key="GridCell.Tab.0.right" timestamp="1596564840382">
+    <state width="1659" height="366" key="GridCell.Tab.0.left/0.23.1680.955@0.23.1680.955" timestamp="1596564893212" />
+    <state width="1659" height="366" key="GridCell.Tab.0.right" timestamp="1596564893213">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="1659" height="366" key="GridCell.Tab.0.right/0.23.1680.955@0.23.1680.955" timestamp="1596564840382" />
+    <state width="1659" height="366" key="GridCell.Tab.0.right/0.23.1680.955@0.23.1680.955" timestamp="1596564893213" />
   </component>
 </project>
