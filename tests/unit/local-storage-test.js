@@ -51,6 +51,14 @@ module('@local', function(hooks) {
 
     assert.equal (null, testClass.name, 'The property getter failed');
     assert.equal (null, window.localStorage.getItem ('name'), 'The storage check failed');
+
+    testClass.name = 'John Doe';
+    assert.equal ('John Doe', testClass.name, 'The property getter failed');
+
+    testClass.name = undefined;
+
+    assert.equal (null, testClass.name, 'The property getter failed');
+    assert.equal (null, window.localStorage.getItem ('name'), 'The storage check failed');
   });
 
   test ('it uses the name option', function (assert) {
