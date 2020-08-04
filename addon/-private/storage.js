@@ -1,6 +1,7 @@
-import Ember from 'ember';
+import { isNone } from '@ember/utils';
+import EmberObject from '@ember/object';
 
-export default Ember.Object.extend ({
+export default EmberObject.extend ({
   /// The target storage object.
   storage: null,
 
@@ -18,13 +19,13 @@ export default Ember.Object.extend ({
 
   setUnknownProperty (name, value) {
     let key = this._computeKey (name);
-    let storage = this.get ('storage');
+    let storage = this.storage;
 
-    if (Ember.isNone (storage)) {
+    if (isNone (storage)) {
       return value;
     }
 
-    if (Ember.isNone (value)) {
+    if (isNone (value)) {
       storage.removeItem (key);
     }
     else {
@@ -41,9 +42,9 @@ export default Ember.Object.extend ({
 
   unknownProperty (name) {
     let key = this._computeKey (name);
-    let storage = this.get ('storage');
+    let storage = this.storage;
 
-    if (Ember.isNone (storage)) {
+    if (isNone (storage)) {
       return null;
     }
 
@@ -70,13 +71,13 @@ export default Ember.Object.extend ({
    * @param target
    */
   forEach (f, target) {
-    let storage = this.get ('storage');
+    let storage = this.storage;
 
-    if (Ember.isNone (storage)) {
+    if (isNone (storage)) {
       return;
     }
 
-    if (Ember.isNone (target)) {
+    if (isNone (target)) {
       target = this;
     }
 

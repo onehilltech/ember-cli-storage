@@ -2,25 +2,35 @@
 
 This README outlines the details of collaborating on this Ember addon.
 
-## Installation
+Compatibility
+------------------------------------------------------------------------------
 
-* `git clone <repository-url>` this repository
-* `cd ember-cli-storage`
-* `npm install`
+* Ember.js v3.12 or above
+* Ember CLI v2.13 or above
+* Node.js v10 or above
 
-## Running
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+Installation
+------------------------------------------------------------------------------
 
-## Running Tests
+```
+ember install @onehilltech/ember-cli-storage
+```
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
 
-## Building
+Usage
+------------------------------------------------------------------------------
 
-* `ember build`
+[Longer description of how to use the addon in apps.]
 
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+
+Contributing
+------------------------------------------------------------------------------
+
+See the [Contributing](CONTRIBUTING.md) guide for details.
+
+
+License
+------------------------------------------------------------------------------
+
+This project is licensed under the [Apache 2.0](LICENSE.md).

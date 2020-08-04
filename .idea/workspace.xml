@@ -2,149 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04ee4863-744d-4f69-8322-5361bc88dd02" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.template-lintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MODULE_REPORT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addon/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addon/local-storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addon/session-storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dummy/config/ember-cli-update.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dummy/config/optional-features.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/local-storage-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/session-storage-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addon/-private/root-storage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addon/-private/storage-segment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addon/-private/storage-service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addon/-private/storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/addon/-private/storage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addon/services/local-storage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addon/services/session-storage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/ember-try.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/ember-try.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testem.js" beforeDir="false" afterPath="$PROJECT_DIR$/testem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/dummy/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/dummy/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/dummy/app/resolver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/dummy/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/dummy/app/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/dummy/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/dummy/app/templates/application.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/dummy/app/templates/components/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/addon/-private/decorator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/dummy/config/environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/dummy/config/environment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/helpers/destroy-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/helpers/destroy-app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/helpers/module-for-acceptance.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/helpers/module-for-acceptance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/helpers/start-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/helpers/start-app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/services/local-storage-test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/services/session-storage-test.js" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/dummy/app/app.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/dummy/app/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/dummy/app/router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/dummy/app/templates/application.hbs">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/dummy/config/environment.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ember-cli-build.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addon/-private/root-storage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addon/-private/storage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>computeKey</find>
-      <find>prefix</find>
-      <find>Storage</find>
-      <find>localStorage</find>
-      <find>console</find>
-      <find>regexp</find>
-      <find>getChild</find>
-      <find>NamespaceStorage</find>
-      <find>bind to:</find>
-      <find>namespace</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>_computeKey</replace>
-      <replace>namespace</replace>
-      <replace>sessionStorage</replace>
-      <replace>RootStorage</replace>
-      <replace>_regexp</replace>
-      <replace>bindTo</replace>
-      <replace>segment:</replace>
-      <replace>name</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/tests/unit/-private/storage-proxy-text.js" />
-        <option value="$PROJECT_DIR$/addon/-private/storage-proxy.js" />
-        <option value="$PROJECT_DIR$/app/-private/storage.js" />
-        <option value="$PROJECT_DIR$/tests/unit/-private/storage-test.js" />
-        <option value="$PROJECT_DIR$/addon/services/local-storage.js" />
-        <option value="$PROJECT_DIR$/addon/services/session-storage.js" />
-        <option value="$PROJECT_DIR$/addon/-private/namespace-storage.js" />
-        <option value="$PROJECT_DIR$/LICENSE.md" />
-        <option value="$PROJECT_DIR$/addon/-private/root-storage.js" />
-        <option value="$PROJECT_DIR$/tests/unit/services/session-storage-test.js" />
-        <option value="$PROJECT_DIR$/tests/unit/services/local-storage-test.js" />
-        <option value="$PROJECT_DIR$/addon/-private/storage-segment.js" />
-        <option value="$PROJECT_DIR$/addon/-private/storage-service.js" />
-        <option value="$PROJECT_DIR$/addon/-private/storage.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -153,84 +57,113 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1432" />
     <option name="height" value="787" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ember-cli-storage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ember-cli-storage" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1fcT7o1EmpAqUib3oB8dRVTXe6g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v6.4.0/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/unit" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/unit" />
       <recent name="$PROJECT_DIR$/addon/-private" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
-      </scripts>
+  <component name="RunManager" selected="Ember Serve.Run dummy application">
+    <configuration name="Run dummy application" type="EMBER_SERVE_CONFIGURATION" factoryName="Ember serve configuration factory">
+      <option name="PORT" value="" />
+      <option name="HOST" value="" />
+      <option name="ENVIRONMENT" value="development" />
+      <option name="OUTPUT_PATH" value="" />
+      <option name="WATCHER" value="" />
+      <option name="PROXY" value="" />
+      <option name="PROXY_SECURE" value="true" />
+      <option name="PROXY_TRANSPARENT" value="true" />
+      <option name="LIVE_RELOAD" value="true" />
+      <option name="LIVE_RELOAD_HOST" value="" />
+      <option name="LIVE_RELOAD_BASE_URL" value="" />
+      <option name="LIVE_RELOAD_PORT" value="" />
+      <option name="SSL" value="false" />
+      <option name="SSL_KEY" value="" />
+      <option name="SSL_CERT" value="" />
+      <module name="NAME" value="ember-cli-storage" />
       <node-interpreter value="project" />
-      <envs />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.test" />
-      </list>
-    </recent_temporary>
+    <configuration default="true" type="EMBER_SERVE_CONFIGURATION" factoryName="Ember serve configuration factory">
+      <option name="PORT" value="" />
+      <option name="HOST" value="" />
+      <option name="ENVIRONMENT" value="development" />
+      <option name="OUTPUT_PATH" value="" />
+      <option name="WATCHER" value="" />
+      <option name="PROXY" value="" />
+      <option name="PROXY_SECURE" value="true" />
+      <option name="PROXY_TRANSPARENT" value="true" />
+      <option name="LIVE_RELOAD" value="true" />
+      <option name="LIVE_RELOAD_HOST" value="" />
+      <option name="LIVE_RELOAD_BASE_URL" value="" />
+      <option name="LIVE_RELOAD_PORT" value="" />
+      <option name="SSL" value="false" />
+      <option name="SSL_KEY" value="" />
+      <option name="SSL_CERT" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run tests" type="EMBER_TEST_CONFIGURATION" factoryName="Ember test configuration factory">
+      <option name="ENVIRONMENT" value="test" />
+      <option name="CONFIG_FILE" value="" />
+      <option name="HOST" value="" />
+      <option name="TEST_PORT" value="" />
+      <option name="FILTER" value="" />
+      <option name="FILTER_OPTION" value="ALL" />
+      <option name="MODULE" value="" />
+      <option name="WATCHER" value="" />
+      <option name="TESTEM_DEBUG" value="" />
+      <option name="TEST_PAGE" value="" />
+      <option name="PATH" value="" />
+      <option name="QUERY" value="" />
+      <option name="REPORTER" value="teamcity" />
+      <option name="LAUNCH" value="" />
+      <option name="LAUNCH_OPTION" value="DEFAULT" />
+      <module name="NAME" value="ember-cli-storage" />
+      <node-interpreter value="project" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="EMBER_TEST_CONFIGURATION" factoryName="Ember test configuration factory">
+      <option name="ENVIRONMENT" value="test" />
+      <option name="CONFIG_FILE" value="" />
+      <option name="HOST" value="" />
+      <option name="TEST_PORT" value="" />
+      <option name="FILTER" value="" />
+      <option name="FILTER_OPTION" value="ALL" />
+      <option name="MODULE" value="" />
+      <option name="WATCHER" value="" />
+      <option name="TESTEM_DEBUG" value="" />
+      <option name="TEST_PAGE" value="" />
+      <option name="PATH" value="" />
+      <option name="QUERY" value="" />
+      <option name="REPORTER" value="teamcity" />
+      <option name="LAUNCH" value="" />
+      <option name="LAUNCH_OPTION" value="DEFAULT" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Ember Serve.Run dummy application" />
+      <item itemvalue="Ember Test.Run tests" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -246,213 +179,37 @@
       <workItem from="1502805759080" duration="719000" />
       <workItem from="1503554539158" duration="5271000" />
       <workItem from="1535605317975" duration="3759000" />
+      <workItem from="1596516218469" duration="12248000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46809000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1432" height="787" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="npm" order="0" sideWeight="0.5111732" side_tool="true" weight="0.22041106" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info id="Project" order="2" sideWeight="0.4888268" visible="true" weight="0.22041106" />
-      <window_info id="Structure" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5109232" side_tool="true" weight="0.3288889" />
-      <window_info anchor="bottom" id="Version Control" order="1" weight="0.3288889" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.48907682" visible="true" weight="0.37202382" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.3288889" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4855532" weight="0.46487296" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49326718" weight="0.38222224" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.3288889" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="npm" order="0" sideWeight="0.5111732" side_tool="true" weight="0.22041106" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info id="Project" order="2" sideWeight="0.4888268" visible="true" weight="0.22041106" />
-      <window_info id="Structure" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5109232" side_tool="true" weight="0.3288889" />
-      <window_info anchor="bottom" id="Version Control" order="1" weight="0.3288889" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.48907682" weight="0.51121074" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.3288889" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4855532" weight="0.46487296" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49326718" weight="0.38222224" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.3288889" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test-helper.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addon/utils/storage-proxy.js" />
-    <entry file="file://$PROJECT_DIR$/tests/unit/-private/storage-proxy-test.js" />
-    <entry file="file://$PROJECT_DIR$/app/utils/storage-proxy.js" />
-    <entry file="file://$PROJECT_DIR$/app/-private/storage.js" />
-    <entry file="file://$PROJECT_DIR$/tests/unit/-private/storage-test.js" />
-    <entry file="file://$PROJECT_DIR$/app/services/session-storage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/dummy/config/targets.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="189" column="17" selection-start-line="189" selection-start-column="17" selection-end-line="189" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/local-storage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addon/as-model.js" />
-    <entry file="file://$PROJECT_DIR$/tests/unit/services/session-storage-test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addon/-private/storage-segment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <caret line="26" column="91" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="91" />
-          <folding>
-            <element signature="e#0#26#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addon/-private/storage-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/services/local-storage-test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addon/services/session-storage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addon/services/local-storage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addon/-private/root-storage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addon/-private/storage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/dummy/app/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/dummy/app/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/dummy/app/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/dummy/app/templates/application.hbs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/dummy/config/environment.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ember-cli-build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596557207903">
+      <screen x="0" y="23" width="1680" height="955" />
+    </state>
+    <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.955@0.23.1680.955" timestamp="1596557207903" />
+    <state x="100" y="123" width="1480" height="755" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1596557255582">
+      <screen x="0" y="23" width="1680" height="955" />
+    </state>
+    <state x="100" y="123" width="1480" height="755" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1680.955@0.23.1680.955" timestamp="1596557255582" />
+    <state width="1659" height="366" key="GridCell.Tab.0.bottom" timestamp="1596559926945">
+      <screen x="0" y="23" width="1680" height="955" />
+    </state>
+    <state width="1659" height="366" key="GridCell.Tab.0.bottom/0.23.1680.955@0.23.1680.955" timestamp="1596559926945" />
+    <state width="1659" height="366" key="GridCell.Tab.0.center" timestamp="1596559926944">
+      <screen x="0" y="23" width="1680" height="955" />
+    </state>
+    <state width="1659" height="366" key="GridCell.Tab.0.center/0.23.1680.955@0.23.1680.955" timestamp="1596559926944" />
+    <state width="1659" height="366" key="GridCell.Tab.0.left" timestamp="1596559926944">
+      <screen x="0" y="23" width="1680" height="955" />
+    </state>
+    <state width="1659" height="366" key="GridCell.Tab.0.left/0.23.1680.955@0.23.1680.955" timestamp="1596559926944" />
+    <state width="1659" height="366" key="GridCell.Tab.0.right" timestamp="1596559926945">
+      <screen x="0" y="23" width="1680" height="955" />
+    </state>
+    <state width="1659" height="366" key="GridCell.Tab.0.right/0.23.1680.955@0.23.1680.955" timestamp="1596559926945" />
   </component>
 </project>
