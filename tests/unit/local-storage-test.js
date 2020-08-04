@@ -38,6 +38,21 @@ module('@local', function(hooks) {
     assert.equal ('John Doe', testClass.name);
   });
 
+  test ('it clears a value', function (assert) {
+    class TestClass {
+      @local name;
+    }
+
+    let testClass = new TestClass ();
+    testClass.name = 'John Doe';
+    assert.equal ('John Doe', testClass.name, 'The property getter failed');
+
+    testClass.name = null;
+
+    assert.equal (null, testClass.name, 'The property getter failed');
+    assert.equal (null, window.localStorage.getItem ('name'), 'The storage check failed');
+  });
+
   test ('it uses the name option', function (assert) {
     class TestClass {
       @local ({ name: 'custom'}) name;

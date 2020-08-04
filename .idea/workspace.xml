@@ -2,45 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04ee4863-744d-4f69-8322-5361bc88dd02" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.template-lintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MODULE_REPORT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addon/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addon/local-storage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addon/session-storage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/dummy/config/ember-cli-update.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/dummy/config/optional-features.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/local-storage-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/session-storage-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addon/-private/root-storage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addon/-private/storage-segment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addon/-private/storage-service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addon/-private/storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/addon/-private/storage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addon/services/local-storage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addon/services/session-storage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/ember-try.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/ember-try.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testem.js" beforeDir="false" afterPath="$PROJECT_DIR$/testem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/dummy/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/dummy/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/dummy/app/resolver.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/dummy/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/dummy/app/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/dummy/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/dummy/app/templates/application.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/dummy/app/templates/components/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/addon/-private/decorator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/dummy/config/environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/dummy/config/environment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/helpers/destroy-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/helpers/destroy-app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/helpers/module-for-acceptance.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/helpers/module-for-acceptance.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/helpers/start-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/helpers/start-app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unit/services/local-storage-test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unit/services/session-storage-test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/local-storage-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/local-storage-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/session-storage-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/session-storage-test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +47,7 @@
       <recent name="$PROJECT_DIR$/addon/-private" />
     </key>
   </component>
-  <component name="RunManager" selected="Ember Serve.Run dummy application">
+  <component name="RunManager" selected="Ember Test.Run tests">
     <configuration name="Run dummy application" type="EMBER_SERVE_CONFIGURATION" factoryName="Ember serve configuration factory">
       <option name="PORT" value="" />
       <option name="HOST" value="" />
@@ -179,7 +143,7 @@
       <workItem from="1502805759080" duration="719000" />
       <workItem from="1503554539158" duration="5271000" />
       <workItem from="1535605317975" duration="3759000" />
-      <workItem from="1596516218469" duration="12248000" />
+      <workItem from="1596516218469" duration="12999000" />
     </task>
     <servers />
   </component>
@@ -195,21 +159,21 @@
       <screen x="0" y="23" width="1680" height="955" />
     </state>
     <state x="100" y="123" width="1480" height="755" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1680.955@0.23.1680.955" timestamp="1596557255582" />
-    <state width="1659" height="366" key="GridCell.Tab.0.bottom" timestamp="1596559926945">
+    <state width="1659" height="366" key="GridCell.Tab.0.bottom" timestamp="1596564781383">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="1659" height="366" key="GridCell.Tab.0.bottom/0.23.1680.955@0.23.1680.955" timestamp="1596559926945" />
-    <state width="1659" height="366" key="GridCell.Tab.0.center" timestamp="1596559926944">
+    <state width="1659" height="366" key="GridCell.Tab.0.bottom/0.23.1680.955@0.23.1680.955" timestamp="1596564781383" />
+    <state width="1659" height="366" key="GridCell.Tab.0.center" timestamp="1596564781383">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="1659" height="366" key="GridCell.Tab.0.center/0.23.1680.955@0.23.1680.955" timestamp="1596559926944" />
-    <state width="1659" height="366" key="GridCell.Tab.0.left" timestamp="1596559926944">
+    <state width="1659" height="366" key="GridCell.Tab.0.center/0.23.1680.955@0.23.1680.955" timestamp="1596564781383" />
+    <state width="1659" height="366" key="GridCell.Tab.0.left" timestamp="1596564781382">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="1659" height="366" key="GridCell.Tab.0.left/0.23.1680.955@0.23.1680.955" timestamp="1596559926944" />
-    <state width="1659" height="366" key="GridCell.Tab.0.right" timestamp="1596559926945">
+    <state width="1659" height="366" key="GridCell.Tab.0.left/0.23.1680.955@0.23.1680.955" timestamp="1596564781382" />
+    <state width="1659" height="366" key="GridCell.Tab.0.right" timestamp="1596564781383">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="1659" height="366" key="GridCell.Tab.0.right/0.23.1680.955@0.23.1680.955" timestamp="1596559926945" />
+    <state width="1659" height="366" key="GridCell.Tab.0.right/0.23.1680.955@0.23.1680.955" timestamp="1596564781383" />
   </component>
 </project>

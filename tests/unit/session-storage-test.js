@@ -26,6 +26,21 @@ module('@session', function(hooks) {
     assert.equal ('John Doe', testClass.name, 'The property getter failed');
   });
 
+  test ('it clears a value', function (assert) {
+    class TestClass {
+      @session name;
+    }
+
+    let testClass = new TestClass ();
+    testClass.name = 'John Doe';
+    assert.equal ('John Doe', testClass.name, 'The property getter failed');
+
+    testClass.name = null;
+
+    assert.equal (null, testClass.name, 'The property getter failed');
+    assert.equal (null, window.sessionStorage.getItem ('name'), 'The storage check failed');
+  });
+
   test ('it uses the name provided to the decorator function', function (assert) {
     class TestClass {
       @session ('custom') name;
