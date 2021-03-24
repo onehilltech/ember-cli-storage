@@ -1,1 +1,1 @@
-export { default } from 'ember-cli-storage/services/local-storage';
+export { default } from '@onehilltech/ember-cli-storage/services/local-storage';

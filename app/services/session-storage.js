@@ -1,1 +1,1 @@
-export { default } from 'ember-cli-storage/services/session-storage';
+export { default } from '@onehilltech/ember-cli-storage/services/session-storage';

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04ee4863-744d-4f69-8322-5361bc88dd02" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/addon/-private/service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODULE_REPORT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/local-storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/local-storage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/session-storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/session-storage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +35,15 @@
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/unit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -129,6 +133,7 @@
       <item itemvalue="Ember Test.Run tests" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -143,12 +148,15 @@
       <workItem from="1502805759080" duration="719000" />
       <workItem from="1503554539158" duration="5271000" />
       <workItem from="1535605317975" duration="3759000" />
-      <workItem from="1596516218469" duration="14378000" />
+      <workItem from="1596516218469" duration="15223000" />
+      <workItem from="1597504742021" duration="632000" />
+      <workItem from="1615517634702" duration="495000" />
+      <workItem from="1616612376693" duration="871000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596557207903">
@@ -159,21 +167,21 @@
       <screen x="0" y="23" width="1680" height="955" />
     </state>
     <state x="100" y="123" width="1480" height="755" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1680.955@0.23.1680.955" timestamp="1596557255582" />
-    <state width="1659" height="366" key="GridCell.Tab.0.bottom" timestamp="1596564893214">
+    <state width="1659" height="366" key="GridCell.Tab.0.bottom" timestamp="1596596455379">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="1659" height="366" key="GridCell.Tab.0.bottom/0.23.1680.955@0.23.1680.955" timestamp="1596564893214" />
-    <state width="1659" height="366" key="GridCell.Tab.0.center" timestamp="1596564893213">
+    <state width="1659" height="366" key="GridCell.Tab.0.bottom/0.23.1680.955@0.23.1680.955" timestamp="1596596455379" />
+    <state width="1659" height="366" key="GridCell.Tab.0.center" timestamp="1596596455377">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="1659" height="366" key="GridCell.Tab.0.center/0.23.1680.955@0.23.1680.955" timestamp="1596564893213" />
-    <state width="1659" height="366" key="GridCell.Tab.0.left" timestamp="1596564893212">
+    <state width="1659" height="366" key="GridCell.Tab.0.center/0.23.1680.955@0.23.1680.955" timestamp="1596596455377" />
+    <state width="1659" height="366" key="GridCell.Tab.0.left" timestamp="1596596455376">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="1659" height="366" key="GridCell.Tab.0.left/0.23.1680.955@0.23.1680.955" timestamp="1596564893212" />
-    <state width="1659" height="366" key="GridCell.Tab.0.right" timestamp="1596564893213">
+    <state width="1659" height="366" key="GridCell.Tab.0.left/0.23.1680.955@0.23.1680.955" timestamp="1596596455376" />
+    <state width="1659" height="366" key="GridCell.Tab.0.right" timestamp="1596596455378">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="1659" height="366" key="GridCell.Tab.0.right/0.23.1680.955@0.23.1680.955" timestamp="1596564893213" />
+    <state width="1659" height="366" key="GridCell.Tab.0.right/0.23.1680.955@0.23.1680.955" timestamp="1596596455378" />
   </component>
 </project>
